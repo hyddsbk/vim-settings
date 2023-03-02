@@ -1,0 +1,100 @@
+{
+    "window.zoomLevel": 2,
+    "[typescript]": {
+        "prettier.prettierPath": "./node_modules/prettier",
+        "prettier.requireConfig": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "files.autoSave": "onFocusChange",
+        "editor.formatOnSave": true,
+    },
+    "editor.codeActionsOnSave": {
+
+    },
+    "cSpell.languageSettings": [
+        
+    ],
+    "vim.easymotion": true,
+    "vim.leader": "<Space>",
+    "vim.sneak": true,
+    "vim.handleKeys": {
+        "<C-c>": false,
+    },
+    "vim.visualModeKeyBindings": [
+        {
+            "before":["J"],
+            "after":["5","j"]
+        },
+        {
+            "before":["K"],
+            "after":["5","k"]
+        }
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before":["H"],
+            "after":["^"]
+        },
+        {
+            "before":["L"],
+            "after":["g","_"]
+        },
+        {
+            "before":["J"],
+            "after":["5","j"]
+        },
+        {
+            "before":["K"],
+            "after":["5","k"]
+        }
+    ],
+    "vim.operatorPendingModeKeyBindings": [
+        {
+            "before":["H"],
+            "after":["^"]
+        },
+        {
+            "before":["L"],
+            "after":["g","_"]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before":["f"],
+            "after":["s"]
+        }
+    ],
+    "vim.operatorPendingModeKeyBindingsNonRecursive": [
+        {
+            "before":["f"],
+            "after":["z"]
+        },
+        {
+            "before":["F"],
+            "after":["Z"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before":["f"],
+            "after":["s"]
+        },
+        {
+            "before":["F"],
+            "after":["S"]
+        },
+        {
+            "before":["s"],
+            "after":["c","l"]
+        },
+        {
+            "before":["S"],
+            "after":["^","C"]
+        }
+
+    ],
+    "cSpell.userWords": [
+        "vnode"
+    ],
+    "git.confirmSync": false
+
+}
